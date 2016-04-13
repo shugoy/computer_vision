@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/shugo/Dropbox/MLAB/授業/ComputerVision/report01/src/main.c \
+  /Users/shugo/Dropbox/MLAB/class/ComputerVision/computer_vision/report01/src/main.c \
   /usr/local/Cellar/opencv3/3.0.0/include/opencv/cv.h \
   /usr/local/Cellar/opencv3/3.0.0/include/opencv2/core/core_c.h \
   /usr/local/Cellar/opencv3/3.0.0/include/opencv2/core/types_c.h \

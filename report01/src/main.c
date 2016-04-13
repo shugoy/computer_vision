@@ -18,15 +18,15 @@ int main (int argc, char **argv)
     f = cvGetTickFrequency()*1000;
     
     // (2)create hue-value gradation image
-//    c = cvGetTickCount();
-//    for(y=0; y<height; y++) {
-//        for(x=0; x<width; x++) {
-//            int a = img->widthStep*y+(x*3);
-//            hsv_img->imageData[a+0] = (x*180/width);
-//            hsv_img->imageData[a+1] = 255;
-//            hsv_img->imageData[a+2] = ((height-y)*255/height);
-//        }
-//    }
+    c = cvGetTickCount();
+    for(y=0; y<height; y++) {
+        for(x=0; x<width; x++) {
+            int a = img->widthStep*y+(x*3);
+            hsv_img->imageData[a+0] = (x*180/width);
+            hsv_img->imageData[a+1] = 255;
+            hsv_img->imageData[a+2] = ((height-y)*255/height);
+        }
+    }
     printf("%f\n", (cvGetTickCount()-c)/f);
     
     cvCvtColor(hsv_img, img, CV_HSV2BGR);
