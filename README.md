@@ -1,2 +1,2 @@
-# computer_vision
-computer_vision_report
+# Computer Vision
+computer visionのレポート課題の実装例

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4103A8A71CBE1D8C006C94D0 /* hexagone.c in Sources */ = {isa = PBXBuildFile; fileRef = 4103A8A61CBE1D8C006C94D0 /* hexagone.c */; };
+		41910DB41CC8BD97005387C5 /* hexagon.c in Sources */ = {isa = PBXBuildFile; fileRef = 41910DB31CC8BD97005387C5 /* hexagon.c */; };
 		419CAB3E1C23A9B6005F4CE8 /* libopencv_calib3d.3.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 419CAB2E1C23A9B6005F4CE8 /* libopencv_calib3d.3.0.0.dylib */; };
 		419CAB3F1C23A9B6005F4CE8 /* libopencv_core.3.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 419CAB2F1C23A9B6005F4CE8 /* libopencv_core.3.0.0.dylib */; };
 		419CAB401C23A9B6005F4CE8 /* libopencv_features2d.3.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 419CAB301C23A9B6005F4CE8 /* libopencv_features2d.3.0.0.dylib */; };
@@ -39,8 +39,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4103A8A61CBE1D8C006C94D0 /* hexagone.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hexagone.c; path = src/hexagone.c; sourceTree = SOURCE_ROOT; };
 		416CFD4B1C12E0CE000212E1 /* cv3test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cv3test; sourceTree = BUILT_PRODUCTS_DIR; };
+		41910DB31CC8BD97005387C5 /* hexagon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hexagon.c; path = src/hexagon.c; sourceTree = SOURCE_ROOT; };
 		419CAB2E1C23A9B6005F4CE8 /* libopencv_calib3d.3.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_calib3d.3.0.0.dylib; path = /usr/local/Cellar/opencv3/3.0.0/lib/libopencv_calib3d.3.0.0.dylib; sourceTree = "<absolute>"; };
 		419CAB2F1C23A9B6005F4CE8 /* libopencv_core.3.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.3.0.0.dylib; path = /usr/local/Cellar/opencv3/3.0.0/lib/libopencv_core.3.0.0.dylib; sourceTree = "<absolute>"; };
 		419CAB301C23A9B6005F4CE8 /* libopencv_features2d.3.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_features2d.3.0.0.dylib; path = /usr/local/Cellar/opencv3/3.0.0/lib/libopencv_features2d.3.0.0.dylib; sourceTree = "<absolute>"; };
@@ -106,7 +106,7 @@
 		416CFD4D1C12E0CE000212E1 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				4103A8A61CBE1D8C006C94D0 /* hexagone.c */,
+				41910DB31CC8BD97005387C5 /* hexagon.c */,
 			);
 			name = src;
 			path = opencvtest;
@@ -191,7 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4103A8A71CBE1D8C006C94D0 /* hexagone.c in Sources */,
+				41910DB41CC8BD97005387C5 /* hexagon.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
